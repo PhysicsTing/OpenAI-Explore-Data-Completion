@@ -1,0 +1,1094 @@
+{
+    "3470": {
+        "name": [
+            "RBC Cash Back Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get up to 2% cash back on grocery store purchases, and up to 1% cash back on all other qualifying purchases and pre-authorized payments.",
+            "grocery": 2.0,
+            "regular": 1.0
+        }
+    },
+    "3876": {
+        "name": [
+            "BMO CashBack Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn cash back at a standard rate of 3% on groceries, 1% on recurring bill payments and 0.5% on all other eligible purchases.",
+            "recurring": 0.5,
+            "grocery": 3.0,
+            "regular": 1.0
+        }
+    },
+    "7803": {
+        "name": [
+            "Tangerine World Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn unlimited 2% cash back in two Tangerine credit card categories of your choice (or three categories if you open a Tangerine Savings Account and directly deposit your cash back into the account), and unlimited 0.5% cash back on everything else. Conditions apply.",
+            "custom1": 2.0,
+            "custom2": 2.0,
+            "regular": 0.5
+        }
+    },
+    "1808": {
+        "name": [
+            "Tangerine Money-Back Credit Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 2% cash back in two Tangerine credit card categories of your choice (or three categories if you open a Tangerine Savings Account and directly deposit your cash back into the account), and 0.5% cash back on everything else.",
+            "custom1": 2.0,
+            "custom2": 2.0,
+            "regular": 0.5
+        }
+    },
+    "3674": {
+        "name": [
+            "Neo Financial Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn an average cash back of 5% at thousands of local and national Neo partners including most major gas and grocery stores, restaurants, gyms, coffee shops and more. Earn a guaranteed 0.5% cash back on all spend at non-partners.",
+            "grocery": 5.0,
+            "neo": 5.0,
+            "gas": 5.0,
+            "regular": 0.5
+        }
+    },
+    "2160": {
+        "name": [
+            "RBC Avion Visa Infinite"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 Avion point for every $1 you spend and an extra 25% on eligible travel purchases.",
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0,
+            "regular": 1.0
+        }
+    },
+    "8170": {
+        "name": [
+            "American Express Cobalt Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5x the points on eligible eats and drinks in Canada, including groceries and food delivery, 3x the points on eligible streaming subscriptions in Canada, 2x points for every $1 spent on eligible transit & gas purchases in Canada and eligible travel purchases, and earn 1 point for every $1 in Card purchases everywhere else.",
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0,
+            "dining": 5.0,
+            "streaming": 3.0,
+            "regular": 1.0
+        }
+    },
+    "6986": {
+        "name": [
+            "BMO Preferred Rate Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "N/A",
+            "regular": 0.0
+        }
+    },
+    "1259": {
+        "name": [
+            "RBC ION+ Visa"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3 Avion points for every $1 spent on groceries, food delivery, rides, gas, streaming, subscriptions, digital gaming and more. Earn 1 Avion point for every $1 spent on all other qualifying purchases.",
+            "grocery": 3.0,
+            "rides": 3.0,
+            "delivery": 3.0,
+            "streaming": 3.0,
+            "subscriptions": 3.0,
+            "gaming": 3.0,
+            "gas": 3.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "6186": {
+        "name": [
+            "RBC ION Visa"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1.5 Avion points for every $1 spent on groceries, rideshares, daily transit, digital gaming, streaming, subscriptions and more. Earn 1 Avion point for every $1 spent on all other qualifying purchases.<br />",
+            "grocery": 1.5,
+            "rides": 1.5,
+            "delivery": 1.5,
+            "streaming": 1.5,
+            "subscriptions": 1.5,
+            "gaming": 1.5,
+            "gas": 1.5,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "1008": {
+        "name": [
+            "American Express Green Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 American Express Membership Point for every $1 you spend on purchases. Charge an eligible purchase to your card and redeem your Membership Rewards points for a statement credit (All eligible purchases: 1,000 points = $10 statement credit).",
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "1735": {
+        "name": [
+            "BMO Ascend World Elite Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 5x the points for every $1 spent on eligible travel purchases, 3x points for every $1 spent on eligible dining and entertainment purchases and recurring bill payments, and 1 point for every $1 spent elsewhere.",
+            "travel": 5.0,
+            "dining": 3.0,
+            "entertainment": 3.0,
+            "recurring": 3.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "7597": {
+        "name": [
+            "BMO Rewards Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 1 BMO Reward point for every $1 spent on eligible purchases.",
+            "regular": 1.0,
+            "redeemFactorMin": 0.72,
+            "redeemFactorMax": 0.72
+        }
+    },
+    "2074": {
+        "name": [
+            "BMO eclipse Visa Infinite Privilege"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5x the BMO Points for every $1 spent on groceries, dining in and out, drugstore purchases, gas and travel. You'll earn 1 point per $1 spent on everything else.",
+            "grocery": 5.0,
+            "dining": 5.0,
+            "gas": 5.0,
+            "travel": 5.0,
+            "regular": 1.0,
+            "redeemFactorMin": 0.72,
+            "redeemFactorMax": 0.72
+        }
+    },
+    "9379": {
+        "name": [
+            "SimplyCash Card from American Express"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 2% cash back on eligible gas purchases in Canada, 2% cash back on eligible grocery purchases in Canada (up to $300 cash back annually), and earn 1.25% cash back elsewhere.",
+            "grocery": 2.0,
+            "gas": 2.0,
+            "regular": 1.25
+        }
+    },
+    "6713": {
+        "name": [
+            "Scotiabank Passport Visa Infinite Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3 Scene+ points on every $1 you spend at Sobeys, Safeway, FreshCo, Foodland and more, 2 Scene+ points points for every $1 spent on eligible grocery store, dining, entertainment and daily transit purchases, and earn 1 Scene+ point for every $1 spent elsewhere.",
+            "grocery": 2.0,
+            "dining": 2.0,
+            "entertainment": 2.0,
+            "transit": 2.0,
+            "Sobeys": 3.0,
+            "Safeway": 3.0,
+            "FreshCo": 3.0,
+            "Foodland": 3.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 1.6
+        }
+    },
+    "8174": {
+        "name": [
+            "Scotiabank SCENE Visa Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 2 Scene+ points on every $1 you spend at Sobeys, Safeway, Foodland & Participating Co-ops, FreshCo and more. Plus, earn 2 Scene+ points per $1 spent at participating Cineplex theatres or cineplex.com, and earn 1 Scene+ point per $1 spent on eligible purchases elsewhere.",
+            "Cineplex": 2.0,
+            "Sobeys": 2.0,
+            "Safeway": 2.0,
+            "FreshCo": 2.0,
+            "Foodland": 2.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 1.6
+        }
+    },
+    "4615": {
+        "name": [
+            "Scotiabank Gold American Express Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 6 Scene+ points for every $1 you spend in Canada at Sobeys, Safeway, FreshCo, Foodland and more, 5 Scene+ points per $1 spent on eligible grocery, dining and entertainment purchases, 3 Scene+ points per $1 spent on eligible gas, transportation and select streaming services, and 1 Scene+ point per $1 spent on eligible purchases elsewhere.",
+            "grocery": 5.0,
+            "dining": 5.0,
+            "entertainment": 5.0,
+            "travel": 3.0,
+            "gas": 3.0,
+            "streaming": 3.0,
+            "Sobeys": 6.0,
+            "Safeway": 6.0,
+            "FreshCo": 6.0,
+            "Foodland": 6.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 1.6
+        }
+    },
+    "3858": {
+        "name": [
+            "American Express Aeroplan Reserve Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3x the points on eligible purchases made directly with Air Canada and Air Canada Vacations, 2x points on eligible dining and food delivery purchases in Canada and on eligible purchases with Rocky Mountaineer, and 1.25x points on everything else.",
+            "delivery": 2.0,
+            "dining": 2.0,
+            "regular": 1.25,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "4898": {
+        "name": [
+            "Scotiabank Value Visa Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get an on-going low interest rate of 12.99% on eligible purchases.",
+            "regular": 0.0
+        }
+    },
+    "8040": {
+        "name": [
+            "Scotia Momentum Visa Infinite Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 4% cash back for every $1 spent on eligible grocery purchases & recurring bill payments, 2% per $1 spent on eligible gas purchases & public transit, and 1% per $1 spent on all other eligible purchases.",
+            "grocery": 4.0,
+            "recurring": 4.0,
+            "gas": 2.0,
+            "transit": 2.0,
+            "regular": 1.0
+        }
+    },
+    "8413": {
+        "name": [
+            "American Express Aeroplan Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 2x the points on eligible purchases made directly with Air Canada and Air Canada vacations, 1.5x points on eligible dining and food delivery purchases in Canada, and 1x points on everything else.",
+            "delivery": 1.5,
+            "dining": 1.5,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+
+        }
+    },
+    "6648": {
+        "name": [
+            "SimplyCash Preferred Card from American Express"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 4% cash back on eligible gas station purchases in Canada, 4% cash back on eligible grocery store purchases in Canada (up to $1,200 cash back annually), and 2% cash back on all other purchases.",
+            "grocery": 4.0,
+            "gas": 4.0,
+            "regular": 2.0
+        }
+    },
+    "4792": {
+        "name": [
+            "BMO CashBack World Elite Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5% cash back on groceries, 4% on transit including ride sharing, taxis and public transportation, 3% on gas and electric vehicle charging, 2% on recurring bill payments and 1% unlimited cash back on all eligible purchases.",
+            "grocery": 5.0,
+            "transit": 4.0,
+            "gas": 3.0,
+            "recurring": 2.0,
+            "regular": 1.0
+        }
+    },
+    "1639": {
+        "name": [
+            "BMO Cashback Business Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1.5% cash back on eligible gas purchases, office supplies and on cell phone and internet recurring payments, earn 1.75% cash back at participating Shell stations, and earn 0.75% on all other eligible card purchases.",
+            "gas": 1.5,
+            "office": 1.5,
+            "Shell": 1.75,
+            "regular": 0.75
+        }
+    },
+    "2143": {
+        "name": [
+            "BMO eclipse Visa Infinite"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5x the BMO Points for every $1 spent on groceries, dining in and out, gas and transit. Plus, earn 1 point for every $1 spent on everything else.",
+            "grocery": 5.0,
+            "dining": 5.0,
+            "gas": 5.0,
+            "regular": 1.0,
+            "redeemFactorMin": 0.72,
+            "redeemFactorMax": 0.72
+
+        }
+    },
+    "5574": {
+        "name": [
+            "American Express Aeroplan Business Reserve Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3 points for every $1 spent on eligible purchases made directly with Air Canada and Air Canada Vacations, 2 points for every $1 spent on eligible hotels and car rentals, and 1.25 point for every $1 spent elsewhere.",
+            "carRental": 2.0,
+            "hotel": 2.0,
+            "regular": 1.25,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "5108": {
+        "name": [
+            "American Express Business Edge Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 10x the points for every $1 spent on eligible business essentials including office supplies & electronics, rides & gas, eats & drinks within 6 months of Cardmembership (up to a maximum of 10,000 points). Earn 3 Membership Rewards points for every $1 spent on eligible business essentials including office supplies, electronics, rides, gas, eats and drinks (up to an annual earn of 75,000 Membership Rewards), and earn 1 Membership Reward point for every $1 spent on all other eligible purchases.",
+            "electronics": 3.0,
+            "dining": 3.0,
+            "gas": 3.0,
+            "ride": 3.0,
+            "regular": 0.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+            
+        }
+    },
+    "1508": {
+        "name": [
+            "Marriott Bonvoy American Express Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5 points per $1 spent at hotels participating in Marriott Bonvoy, and 2 points per $1 spent elsewhere.",
+            "Marriott": 5.0,
+            "regular": 2.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "1717": {
+        "name": [
+            "American Express AIR MILES Platinum Credit Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 AIR MILE for every $5 spent on eligible food, drink, gas and transit purchases (up to an annual spend of $30,000), and earn 1 AIR MILE for every $10 spent on all other eligible purchases (and after the $30,000 annual spend)",
+            "transit": 0.2,
+            "dining": 0.2,
+            "gas": 0.2,
+            "regular": 0.1,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "5535": {
+        "name": [
+            "The Platinum Card from American Express"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3 points for every $1 spent on eligible dining and food delivery in Canada, 2 points for every $1 spent on eligible travel, and 1 point for every $1 spent elsewhere.",
+            "delivery": 3.0,
+            "dining": 3.0,
+            "travel": 2.0,
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "7710": {
+        "name": [
+            "BMO U.S. Dollar Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "N/A",
+            "grocery": 0.0,
+            "dining": 0.0,
+            "gas": 0.0,
+            "regular": 0.0
+        }
+    },
+    "6634": {
+        "name": [
+            "BMO AIR MILES World Elite Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 3 Miles for every $12 spent at participating AIR MILES Reward Partners, 2 Miles for every $12 spent at any eligible grocery store and 1 AIR MILE for every $12 spent on eligible purchases.",
+            "AirMilePartners": 0.25,
+            "grocery": 0.16,
+            "regular": 0.08,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "2101": {
+        "name": [
+            "BMO AIR MILES Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 3x the Miles for every $25 spent at participating AIR MILES Partners, 2x the Miles for every $25 spent at any eligible grocery store, and 1 AIR MILE for every $25 spent elsewhere.",
+            "AirMilePartners": 0.12,
+            "grocery": 0.08,
+            "regular": 0.04,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "7680": {
+        "name": [
+            "BMO AIR MILES Mastercard For Students"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 3x the Miles for every $25 spent at participating AIR MILES Partners, 2x the Miles for every $25 spent at any eligible grocery store, and 1 AIR MILE for every $25 spent elsewhere.",
+            "AirMilePartners": 0.12,
+            "grocery": 0.08,
+            "regular": 0.04,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "8141": {
+        "name": [
+            "BMO CashBack Mastercard For Students"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 3% cash back on groceries, 1% on recurring bill payments and 0.5% on all other eligible purchases.",
+            "grocery": 3.0,
+            "recurring": 1.0,
+            "regular": 0.5
+        }
+    },
+    "7612": {
+        "name": [
+            "RBC Cash Back Preferred World Elite Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn up to 1.5% cash back on all eligible purchases.",
+            "regular": 1.5
+        }
+    },
+    "4602": {
+        "name": [
+            "BMO World Elite Business Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 4 BMO Rewards points for every $1 you spend on gas, office supplies and cell phone/internet bill payments.",
+            "office": 4.0,
+            "gas": 4.0,
+            "regular": 0.0,
+            "redeemFactorMin": 0.72,
+            "redeemFactorMax": 0.72
+        }
+    },
+    "7447": {
+        "name": [
+            "BMO Air Miles No-Fee Business Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 Air Mile for every $20 spent on eligible purchases. Plus, get 1.25 Miles for every $20 you spend at participating Shell stations.",
+            "Shell": 0.11,
+            "regular": 0.05,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "2532": {
+        "name": [
+            "BMO AIR MILES World Elite Business Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 4x the Miles when you use your card at participating AIR MILES partners. Plus, get 1 Mile for every $12 spend.",
+            "AirMilePartners": 0.32,
+            "regular": 0.08,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "8898": {
+        "name": [
+            "Business Platinum Card from American Express"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1.25 Membership Rewards points for every $1 spent on eligible purchases. Points never expire, and there is no limit to the amount you can earn.",
+            "regular": 1.25,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "9395": {
+        "name": [
+            "Marriott Bonvoy Business American Express Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 5 points for every $1 in purchases at participating Marriott Bonvoy hotels, 3 points for every $1 spent on eligible gas, dining and travel, and 2 points for every $1 spent on everything else.",
+            "Marriott": 5.0,
+            "dining": 3.0,
+            "gas": 3.0,
+            "travel": 3.0,
+            "regular": 2.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "9757": {
+        "name": [
+            "American Express Business Gold Rewards Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 Membership Rewards point for every $1 spent on purchases.",
+            "regular": 1.0,
+            "redeemFactorMin": 1.0,
+            "redeemFactorMax": 2.0
+        }
+    },
+    "8907": {
+        "name": [
+            "American Express AIR MILES Gold Business Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 AIR MILE for every $15 spent on eligible purchases at AIR MILES Sponsors, and earn 1 AIR MILE for every $20 spent on eligible purchases elsewhere",
+            "AirMilePartners": 0.06,
+            "regular": 0.05,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "5989": {
+        "name": [
+            "Scotia Momentum No-Fee Visa Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Get 1% cash back on all eligible gas station, grocery store and drug store purchases and recurring bill payments, and get 0.5% cash back on all other eligible purchases.<br />",
+            "grocery": 1.0,
+            "pharamercy": 1.0,
+            "recurring": 1.0,
+            "regular": 0.5
+        }
+    },
+    "6375": {
+        "name": [
+            "Scotia Momentum Visa Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 2% cash back on all eligible gas station, grocery store and drug store purchases and on recurring bill payments (up to $25,000 annually), and earn 1% cash back on all other eligible purchases (and on all eligible purchases once the $25,000 annual spending limit is reached).",
+            "grocery": 2.0,
+            "pharamercy": 2.0,
+            "recurring": 2.0,
+            "regular": 1.0
+        }
+    },
+    "5343": {
+        "name": [
+            "American Express AIR MILES Reserve Credit Card"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 AIR MILE for every $10 spent on purchases at eligible stand-alone grocery stores, gas stations and drugs stores in Canada, as well as eligible AIR MILES partners, and earn 1 AIR MILE for every $15 spent on all other eligible purchases elsewhere.",
+            "AirMilePartners": 0.1,
+            "Grocery": 0.1,
+            "gas": 0.1,
+            "pharamercy": 0.1,
+            "regular": 0.06,
+            "redeemFactorMin": 5.0,
+            "redeemFactorMax": 10.0
+        }
+    },
+    "1475": {
+        "name": [
+            "National Bank MC1 Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "N/A",
+            "grocery": 0.0,
+            "dining": 0.0,
+            "gas": 0.0,
+            "regular": 0.0
+        }
+    },
+    "7826": {
+        "name": [
+            "National Bank Allure Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1 point for every $2 spent on eligible purchases.",
+            "regular": 0.5,
+            "redeemFactorMin": 0.9,
+            "redeemFactorMax": 0.9
+        }
+    },
+    "3215": {
+        "name": [
+            "National Bank mycredit Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1% cash back on every $1 spent in restaurants and on recurring pre-authorized payments, and 0.5% cash back on other eligible purchases.",
+            "dining": 1.0,
+            "recurring": 1.0,
+            "regular": 0.5
+        }
+    },
+    "2650": {
+        "name": [
+            "National Bank Syncro Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "N/A",
+            "grocery": 0.0,
+            "dining": 0.0,
+            "gas": 0.0,
+            "regular": 0.0
+        }
+    },
+    "3816": {
+        "name": [
+            "National Bank World Elite Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn up to 5 points in groceries and restaurants, 2 points on gas and bill payments and 1 point for every $1 on all other purchases.",
+            "grocery": 5.0,
+            "bill": 2.0,
+            "regular": 1.0,
+            "redeemFactorMin": 0.9,
+            "redeemFactorMax": 0.9
+        }
+    },
+    "2152": {
+        "name": [
+            "National Bank World Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn up to 2 points for every $1 you spend when you spend over $20,000 per year (and 1.25 points for every $1 before that).",
+            "regular": 2.0,
+            "redeemFactorMin": 0.56,
+            "redeemFactorMax": 0.9
+        }
+    },
+    "9426": {
+        "name": [
+            "National Bank ECHO Cashback Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn 1.5% when you shop online or purchase groceries and gas, and earn 1% cash back on everything else.",
+            "grocery": 1.5,
+            "online": 1.5,
+            "gas": 1.5,
+            "regular": 1.0
+        }
+    },
+    "2841": {
+        "name": [
+            "National Bank Platinum Mastercard"
+        ],
+        "bankInfo": {
+            "bank": "",
+            "brand": "",
+            "type": "",
+            "bankURL": "",
+            "picURL": ""
+        },
+        "benefits": {
+            "description": "Earn up to 2 points per dollar in eligible grocery and restaurant purchases, 1.5 points per dollar in eligible gas and electric vehicle charging purchases, recurring bill payments and \u00c0 la carte travel purchases and 1 point per 1.5 dollars in other purchases.<br />",
+            "grocery": 2.0,
+            "dining": 2.0,
+            "gas": 1.5,
+            "charging": 1.5,
+            "travel": 1.5,
+            "recurring": 1.5,
+            "regular": 0.66,
+            "redeemFactorMin": 0.9,
+            "redeemFactorMax": 0.9
+        }
+    }
+}
