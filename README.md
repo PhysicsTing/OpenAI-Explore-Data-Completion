@@ -69,3 +69,82 @@ The original incomplete data which contains information about 50+ credit card us
 #### updated_metadata.json
 
 Newly generated json with empty fields filled in by OpenAI LLM via process.py 
+
+## Conclusion
+
+Model davinci has the capacity to complete the task surprisingly well.
+Model curie is less smart, and may need a lot effort in prompting.
+Model ada on the other hand does not have the capability at all to understand concept such as json, or complex instructions.
+
+## Test Results
+
+- Even thought for each entry, the prompt specifically asks to return the result with json properties in double quotation, the model still have certain chances of using single quotation, which causes json parsing to fail.
+- Sometime the bankUrl filled in by model is too long, and causes the json parsing to fail.
+
+Below are some test results with different models:
+
+### text-davinci-002 (Most capable)
+
+text-davinci-002 temperature=0
+```
+============================
+success:       55
+fail:          0
+time elapsed:  214.5859341621399
+============================
+```
+
+text-davinci-002 temperature=0.5
+```
+============================
+success:       52
+fail:          3
+time elapsed:  280.3291530609131
+============================
+```
+
+text-davinci-002 temperature=1
+```
+============================
+success:       50
+fail:          5
+time elapsed:  215.16787004470825
+============================
+```
+
+### text-ada-001 (Fast and cheap)
+
+This is expected, that it appears that text-ada-001 has very little ability to understand complex instruction, and the results are not even close to the task goal.
+
+text-ada-001 temperature=0
+```
+============================
+success:       0
+fail:          55
+time elapsed:  94.99054312705994
+============================
+```
+Example output:
+```
+The bankinfo section in the definition of National Bank Syncro Mastercard has the following content:
+
+The bank is National Bank Syncro Mastercard.
+```
+
+### text-curie-001 (Less capable than davinci)
+
+curie model returns better json format than ada, however it has trouble when taking mutiple instructions at the same time. It does not add curly brackets at the begining. When ptompting specifically to do so, it does not use double quotation. Furthermore it does not understand very well the task, and returned json structures that is relevent but not exactly the goal. Perhaps with some tuning in prompt, it can still complete the task, except now as smooth as davinci.
+
+text-curie-001 temperature=0
+```
+============================
+success:       1
+fail:          54
+time elapsed:  127.9404878616333
+============================
+```
+
+Example output:
+```
+{'name': 'American Express AIR MILES Reserve Credit Card', 'bankInfo': {'bank': '', 'brand': '', 'type': '', 'bankURL': '', 'picURL': ''}, 'benefits': {'description': 'Earn 1 AIR MILE for every $10 spent on purchases at eligible stand-alone grocery stores, gas stations and drugs stores in Canada, as well as eligible AIR MILES partners, and earn 1 AIR MILE for every $15 spent on all other eligible purchases elsewhere.', 'AirMilePartners': 0.1, 'Grocery': 0.1, 'gas': 0.1, 'pharamercy': 0.1, 'regular': 0.06, 'redeemFactorMin': 5.0, 'redeemFactorMax': 10.0}, 'bankInfo': {'bank': '', 'brand': '', 'type': '', 'bankURL': '', 'picURL': ''}, 'picURL': 'https://www.americanexpress.com/ca/images/products/air-miles/reserve-credit-card/american-express-air-miles-reserve-credit-card.jpg'}
+```
