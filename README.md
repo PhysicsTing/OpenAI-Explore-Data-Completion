@@ -1,6 +1,6 @@
 # OpenAI-Explore-Data-Completion
 
-This is a simple exploring project to make use of OpenAI LLM API to process and complete previously incomplete Json data.
+This is a very simple experiment project to make use of OpenAI LLM API to process a josn file, and based on implicit information, fill in the gaps in json file.
 
 ## Use case scenario
 
@@ -33,14 +33,18 @@ John wants to build an credit card manage application. This application must mai
     ...
 }
 ```
-John already got the name and description information via a web crawler. The problem is that he still need to fill in the rest of the information, such as bank name, the branch of the card etc, but he's tired of writting the crawler. Since the necessary information are alreay there in the description, potentially a LLM such as the ones provided by OpenAI could help.
+John already got the name and description information via a web crawler. The problem is that he still need to fill in the rest of the information, such as bank name, the branch of the card etc, but he's tired of writting the crawler to acquire that information. Since the necessary information are alreay there in the description, potentially a LLM such as the ones provided by OpenAI could help.
+
+## Goal
+
+Feed the existing Json file to openAI API, and prompt the LLM to fill in the blanks in "bankInfo" based on the information provided in "description".
 
 ## Approach
 
-1. There will be dozens of cards in the list, or millions of entries in other use case scenrio, which definitly exceeds OpenAI API's max token limition. So we will need a script to first break the Json data into small trucks, and feed into the API one entry after another.
+1. There will be dozens of cards in the list, or maybe millions of entries in other use case scenrio, which definitly exceeds OpenAI API's max token limition. So we will need a script to first break the Json data into small trucks, and feed into the API one entry after another.
 2. Apparently a prompt is required to instruct the LLM about how to process this data.
-3. Apon receiving the response, parse the returned string back into Json. Concat all response togather, and generate the updated file.
-4. Since the project is using OpenAI anyway, and John is too lazy to even write the script to parse the Json file, might as well ask OpenAI to write the script directly.
+3. Upon receiving the response, parse the returned string into Json object. Concatenate all response togather, and generate the updated file.
+4. Since the project is using OpenAI anyway, and John is too lazy to even write the script to load the Json file, might as well ask OpenAI to write the script directly.
 
 ## Files
 
@@ -72,20 +76,21 @@ Newly generated json with empty fields filled in by OpenAI LLM via process.py
 
 ## Conclusion
 
-Model davinci has the capacity to complete the task surprisingly well.
-Model curie is less smart, and may need a lot effort in prompting.
-Model ada on the other hand does not have the capability at all to understand concept such as json, or complex instructions.
+Model davinci has the capacity to complete the Json file and it does it surprisingly well.
+Model curie is less smart, and may need a lot effort in prompting in order to genrate the right result.
+Model ada on the other hand does not have the consistant capability to understand concept such as json, or complex instructions.
 
 ## Test Results
 
 - Even thought for each entry, the prompt specifically asks to return the result with json properties in double quotation, the model still have certain chances of using single quotation, which causes json parsing to fail.
 - Sometime the bankUrl filled in by model is too long, and causes the json parsing to fail.
 
-Below are some test results with different models:
+There are 55 cards in the list. Below are some test results with different models.
 
 ### text-davinci-002 (Most capable)
 
 text-davinci-002 temperature=0
+(The updated_metadata.json in this repository is generated with this model)
 ```
 ============================
 success:       55
@@ -112,7 +117,7 @@ time elapsed:  215.16787004470825
 ============================
 ```
 
-### text-ada-001 (Fast and cheap)
+### text-ada-001 (Fast and low cost)
 
 This is expected, that it appears that text-ada-001 has very little ability to understand complex instruction, and the results are not even close to the task goal.
 
